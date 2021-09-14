@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_viewCheques" targetNamespace="http://tempuri.org/ds_viewCheques.xsd" xmlns:mstns="http://tempuri.org/ds_viewCheques.xsd" xmlns="http://tempuri.org/ds_viewCheques.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="novinDBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="novinDBConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Novin.Properties.Settings.GlobalReference.Default.novinDBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="viw_chequesTableAdapter" GeneratorDataComponentClassName="viw_chequesTableAdapter" Name="viw_cheques" UserDataComponentName="viw_chequesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="novinDBConnectionString (Settings)" DbObjectName="dbo.viw_cheques" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT chq_number, person_familyAndName, chq_price, chq_isItMine, accDoc_id FROM viw_cheques</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="chq_number" DataSetColumn="chq_number" />
+              <Mapping SourceColumn="person_familyAndName" DataSetColumn="person_familyAndName" />
+              <Mapping SourceColumn="chq_price" DataSetColumn="chq_price" />
+              <Mapping SourceColumn="chq_isItMine" DataSetColumn="chq_isItMine" />
+              <Mapping SourceColumn="accDoc_id" DataSetColumn="accDoc_id" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="novinDBConnectionString (Settings)" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy" GeneratorSourceName="getMineChequesTotalPrice" Modifier="Public" Name="getMineChequesTotalPrice" QueryType="Scalar" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="getMineChequesTotalPrice">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        SUM(chq_price) AS totalPrice
+FROM            viw_cheques
+WHERE        (chq_isItMine = 1) AND (accDoc_id =2)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="novinDBConnectionString (Settings)" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="getNotMineChequesTotalPrice" Modifier="Public" Name="getNotMineChequesTotalPrice" QueryType="Scalar" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="getNotMineChequesTotalPrice">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        SUM(chq_price) AS Expr1
+FROM            viw_cheques
+WHERE        (chq_isItMine = 0)AND (accDoc_id = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_viewCheques" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ds_viewCheques" msprop:Generator_DataSetName="ds_viewCheques" msprop:EnableTableAdapterManager="True">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="viw_cheques" msprop:Generator_UserTableName="viw_cheques" msprop:Generator_RowDeletedName="viw_chequesRowDeleted" msprop:Generator_RowChangedName="viw_chequesRowChanged" msprop:Generator_RowClassName="viw_chequesRow" msprop:Generator_RowChangingName="viw_chequesRowChanging" msprop:Generator_RowEvArgName="viw_chequesRowChangeEvent" msprop:Generator_RowEvHandlerName="viw_chequesRowChangeEventHandler" msprop:Generator_TableClassName="viw_chequesDataTable" msprop:Generator_TableVarName="tableviw_cheques" msprop:Generator_RowDeletingName="viw_chequesRowDeleting" msprop:Generator_TablePropName="viw_cheques">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="chq_number" msprop:Generator_UserColumnName="chq_number" msprop:Generator_ColumnPropNameInRow="chq_number" msprop:Generator_ColumnVarNameInTable="columnchq_number" msprop:Generator_ColumnPropNameInTable="chq_numberColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="person_familyAndName" msprop:Generator_UserColumnName="person_familyAndName" msprop:Generator_ColumnPropNameInRow="person_familyAndName" msprop:Generator_ColumnVarNameInTable="columnperson_familyAndName" msprop:Generator_ColumnPropNameInTable="person_familyAndNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="chq_price" msprop:Generator_UserColumnName="chq_price" msprop:Generator_ColumnPropNameInRow="chq_price" msprop:Generator_ColumnVarNameInTable="columnchq_price" msprop:Generator_ColumnPropNameInTable="chq_priceColumn" type="xs:long" />
+              <xs:element name="chq_isItMine" msprop:Generator_UserColumnName="chq_isItMine" msprop:Generator_ColumnPropNameInRow="chq_isItMine" msprop:Generator_ColumnVarNameInTable="columnchq_isItMine" msprop:Generator_ColumnPropNameInTable="chq_isItMineColumn" type="xs:boolean" />
+              <xs:element name="accDoc_id" msprop:Generator_UserColumnName="accDoc_id" msprop:Generator_ColumnVarNameInTable="columnaccDoc_id" msprop:Generator_ColumnPropNameInRow="accDoc_id" msprop:Generator_ColumnPropNameInTable="accDoc_idColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

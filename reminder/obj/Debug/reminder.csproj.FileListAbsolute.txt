@@ -1,0 +1,48 @@
+D:\develop\csharp\Novin\reminder\bin\Debug\reminder.exe
+D:\develop\csharp\Novin\reminder\bin\Debug\reminder.pdb
+D:\develop\csharp\Novin\reminder\obj\Debug\reminder.Properties.Resources.resources
+D:\develop\csharp\Novin\reminder\obj\Debug\reminder.csproj.GenerateResource.Cache
+D:\develop\csharp\Novin\reminder\obj\Debug\reminder.exe
+D:\develop\csharp\Novin\reminder\obj\Debug\reminder.pdb
+D:\develop\csharp\Novin\reminder\obj\Debug\reminder.frm_main.resources
+F:\Novin\reminder\obj\Debug\ResolveAssemblyReference.cache
+F:\Novin\reminder\obj\Debug\reminder.frm_main.resources
+F:\Novin\reminder\obj\Debug\reminder.Properties.Resources.resources
+F:\Novin\reminder\obj\Debug\reminder.csproj.GenerateResource.Cache
+F:\Novin\reminder\bin\Debug\novinDB.mdf
+F:\Novin\reminder\bin\Debug\novinDB_log.ldf
+F:\Novin\reminder\bin\Debug\reminder.exe
+F:\Novin\reminder\bin\Debug\reminder.pdb
+F:\Novin\reminder\bin\Debug\Novin.exe
+F:\Novin\reminder\bin\Debug\Persia.dll
+F:\Novin\reminder\bin\Debug\Novin.pdb
+F:\Novin\reminder\obj\Debug\reminder.exe
+F:\Novin\reminder\obj\Debug\reminder.pdb
+D:\develop\csharp\Novin - Copy\reminder\bin\Debug\reminder.exe
+D:\develop\csharp\Novin - Copy\reminder\bin\Debug\reminder.pdb
+D:\develop\csharp\Novin - Copy\reminder\obj\Debug\ResolveAssemblyReference.cache
+D:\develop\csharp\Novin - Copy\reminder\obj\Debug\reminder.frm_main.resources
+D:\develop\csharp\Novin - Copy\reminder\obj\Debug\reminder.Properties.Resources.resources
+D:\develop\csharp\Novin - Copy\reminder\obj\Debug\reminder.csproj.GenerateResource.Cache
+D:\develop\csharp\Novin - Copy\reminder\obj\Debug\reminder.exe
+D:\develop\csharp\Novin - Copy\reminder\obj\Debug\reminder.pdb
+G:\Novin\reminder\bin\Debug\reminder.exe
+G:\Novin\reminder\bin\Debug\reminder.pdb
+G:\Novin\reminder\obj\Debug\ResolveAssemblyReference.cache
+G:\Novin\reminder\obj\Debug\reminder.frm_main.resources
+G:\Novin\reminder\obj\Debug\reminder.Properties.Resources.resources
+G:\Novin\reminder\obj\Debug\GenerateResource-ResGen.read.1.tlog
+G:\Novin\reminder\obj\Debug\GenerateResource-ResGen.write.1.tlog
+G:\Novin\reminder\obj\Debug\reminder.exe
+G:\Novin\reminder\obj\Debug\reminder.pdb
+G:\Novin\reminder\obj\Debug\GenerateResource.read.1.tlog
+D:\Develop\develop\csharp\Novin\reminder\bin\Debug\reminder.exe
+D:\Develop\develop\csharp\Novin\reminder\bin\Debug\reminder.pdb
+D:\Develop\develop\csharp\Novin\reminder\obj\Debug\reminder.csprojResolveAssemblyReference.cache
+D:\Develop\develop\csharp\Novin\reminder\obj\Debug\reminder.frm_main.resources
+D:\Develop\develop\csharp\Novin\reminder\obj\Debug\reminder.Properties.Resources.resources
+D:\Develop\develop\csharp\Novin\reminder\obj\Debug\reminder.csproj.GenerateResource.Cache
+D:\Develop\develop\csharp\Novin\reminder\obj\Debug\reminder.exe
+D:\Develop\develop\csharp\Novin\reminder\obj\Debug\reminder.pdb
+D:\Develop\Csharp\Novin\reminder\obj\Debug\reminder.csprojAssemblyReference.cache
+D:\Develop\Csharp\Novin\reminder\obj\Debug\reminder.csproj.CoreCompileInputs.cache

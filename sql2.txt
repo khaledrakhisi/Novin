@@ -1,0 +1,13 @@
+   dbo.tbl_itemsWasted.invoiceBuy_id, dbo.tbl_slaveGroups.slaveGroup_title + ' ' + dbo.tbl_objects.object_title AS objectTitle, dbo.tbl_objectUnits.objectUnit_title, 
+                         dbo.tbl_itemsWasted.itemWasted_unitCount, dbo.tbl_itemsWasted.itemWasted_retailCount, 
+                         dbo.tbl_itemsWasted.itemWasted_unitCount * dbo.tbl_objects.object_retailInUnit + dbo.tbl_itemsWasted.itemWasted_retailCount AS objectTotalCount, 
+                         dbo.tbl_objects.object_retailInUnit, dbo.tbl_itemsWasted.itemWasted_retailPrice, dbo.tbl_itemsWasted.itemWasted_discountPercent, 
+                         (dbo.tbl_itemsWasted.itemWasted_unitCount * dbo.tbl_objects.object_retailInUnit + dbo.tbl_itemsWasted.itemWasted_retailCount) 
+                         * dbo.tbl_itemsWasted.itemWasted_retailPrice + ((dbo.tbl_itemsWasted.itemWasted_unitCount * dbo.tbl_objects.object_retailInUnit + dbo.tbl_itemsWasted.itemWasted_retailCount) 
+                         * dbo.tbl_itemsWasted.itemWasted_retailPrice) * (dbo.tbl_itemsWasted.itemWasted_taxPercent - dbo.tbl_itemsWasted.itemWasted_discountPercent) / 100 AS objectTotalPrice, 
+                         dbo.tbl_itemsWasted.itemWasted_comment, dbo.tbl_itemsWasted.itemWasted_taxPercent, dbo.tbl_itemsWasted.invoiceBuy_kind
+FROM            dbo.tbl_invoicesBuy INNER JOIN
+                         dbo.tbl_itemsWasted ON dbo.tbl_invoicesBuy.invoiceBuy_id = dbo.tbl_itemsWasted.invoiceBuy_id AND 
+                         dbo.tbl_invoicesBuy.invoiceBuy_Kind = dbo.tbl_itemsWasted.invoiceBuy_kind INNER JOIN
+                         dbo.tbl_objects ON dbo.tbl_itemsWasted.object_id = dbo.tbl_objects.object_id INNER JOIN
+                         dbo.tbl_slaveGroups ON dbo.tbl_objects.slaveGroup_id = dbo.tbl_slaveGroups.slaveGroup_id INNER JOIN

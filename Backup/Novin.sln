@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jaavid", "Novin\Jaavid.csproj", "{A72DC2BA-FBF2-43EC-A970-643BB10098A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reminder", "reminder\reminder.csproj", "{125640C5-B3CF-4E8F-83CE-4F3FD45F6E1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jaavidTextbox", "jaavidTextbox\jaavidTextbox.csproj", "{F5BC1E8D-F377-4929-8E20-5AC3535AB8A0}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "setup", "setup\setup.vdproj", "{93E9F862-91E8-4A59-9D2C-183198A0D83E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A72DC2BA-FBF2-43EC-A970-643BB10098A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A72DC2BA-FBF2-43EC-A970-643BB10098A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A72DC2BA-FBF2-43EC-A970-643BB10098A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A72DC2BA-FBF2-43EC-A970-643BB10098A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{125640C5-B3CF-4E8F-83CE-4F3FD45F6E1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{125640C5-B3CF-4E8F-83CE-4F3FD45F6E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{125640C5-B3CF-4E8F-83CE-4F3FD45F6E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{125640C5-B3CF-4E8F-83CE-4F3FD45F6E1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5BC1E8D-F377-4929-8E20-5AC3535AB8A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5BC1E8D-F377-4929-8E20-5AC3535AB8A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5BC1E8D-F377-4929-8E20-5AC3535AB8A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5BC1E8D-F377-4929-8E20-5AC3535AB8A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93E9F862-91E8-4A59-9D2C-183198A0D83E}.Debug|Any CPU.ActiveCfg = Debug
+		{93E9F862-91E8-4A59-9D2C-183198A0D83E}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

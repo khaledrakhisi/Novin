@@ -1,0 +1,9 @@
+SELECT        dbo.tbl_invoicesSell.invoiceSell_id, dbo.tbl_slaveGroups.slaveGroup_title + '  ' + dbo.tbl_objects.object_title AS objectTitle, 
+                         dbo.tbl_persons.person_familyAndName, dbo.tbl_invoicesSell.invoiceSell_date, dbo.tbl_invoicesSell.invoiceSell_totalPrice, 
+                         dbo.tbl_invoicesSell.invoiceSell_comment
+FROM            dbo.tbl_invoicesSell INNER JOIN
+                         dbo.tbl_itemsSell ON dbo.tbl_invoicesSell.invoiceSell_id = dbo.tbl_itemsSell.invoiceSell_id INNER JOIN
+                         dbo.tbl_objects ON dbo.tbl_itemsSell.object_id = dbo.tbl_objects.object_id INNER JOIN
+                         dbo.tbl_persons ON dbo.tbl_invoicesSell.person_id = dbo.tbl_persons.person_id INNER JOIN
+                         dbo.tbl_slaveGroups ON dbo.tbl_objects.slaveGroup_id = dbo.tbl_slaveGroups.slaveGroup_id
+WHERE        (dbo.tbl_invoicesSell.invoiceSell_kind = 1) AND (dbo.tbl_persons.person_familyAndName = N'h') AND (dbo.tbl_objects.object_title = N'j')

@@ -1,0 +1,8 @@
+dbo.tbl_itemsBuy.invoiceBuy_id, dbo.tbl_slaveGroups.slaveGroup_title + ' ' + dbo.tbl_objects.object_title AS objectTitle, dbo.tbl_objectUnits.objectUnit_title, 
+                         dbo.tbl_itemsBuy.itemBuy_unitCount, dbo.tbl_itemsBuy.itemBuy_retailCount, 
+                         dbo.tbl_itemsBuy.itemBuy_unitCount * dbo.tbl_objects.object_retailInUnit + dbo.tbl_itemsBuy.itemBuy_retailCount AS objectTotalCount, 
+                         dbo.tbl_objects.object_retailInUnit, dbo.tbl_itemsBuy.itemBuy_retailPrice, dbo.tbl_itemsBuy.itemBuy_discountPercent, 
+                         (dbo.tbl_itemsBuy.itemBuy_unitCount * dbo.tbl_objects.object_retailInUnit + dbo.tbl_itemsBuy.itemBuy_retailCount) 
+                         * dbo.tbl_itemsBuy.itemBuy_retailPrice + ((dbo.tbl_itemsBuy.itemBuy_unitCount * dbo.tbl_objects.object_retailInUnit + dbo.tbl_itemsBuy.itemBuy_retailCount) 
+                         * dbo.tbl_itemsBuy.itemBuy_retailPrice) * (dbo.tbl_itemsBuy.itemBuy_taxPercent - dbo.tbl_itemsBuy.itemBuy_discountPercent) / 100 AS objectTotalPrice, 
+                         dbo.tbl_itemsBuy.itemBuy_comment, dbo.tbl_itemsBuy.itemBuy_taxPercent, dbo.tbl_itemsBuy.invoiceBuy_kind

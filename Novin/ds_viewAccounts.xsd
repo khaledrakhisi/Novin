@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_viewAccounts" targetNamespace="http://tempuri.org/ds_viewAccounts.xsd" xmlns:mstns="http://tempuri.org/ds_viewAccounts.xsd" xmlns="http://tempuri.org/ds_viewAccounts.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="novinDBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="novinDBConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Novin.Properties.Settings.GlobalReference.Default.novinDBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="viw_accountsTableAdapter" GeneratorDataComponentClassName="viw_accountsTableAdapter" Name="viw_accounts" UserDataComponentName="viw_accountsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="novinDBConnectionString (Settings)" DbObjectName="dbo.viw_accounts" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        accountTitle, account_totalPrice, account_chapterName, moeen_id, account_id
+FROM            viw_accounts
+WHERE        (account_chapterName &lt;&gt; '-120') OR
+                         (account_chapterName IS NULL)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="accountTitle" DataSetColumn="accountTitle" />
+              <Mapping SourceColumn="account_totalPrice" DataSetColumn="account_totalPrice" />
+              <Mapping SourceColumn="account_chapterName" DataSetColumn="account_chapterName" />
+              <Mapping SourceColumn="moeen_id" DataSetColumn="moeen_id" />
+              <Mapping SourceColumn="account_id" DataSetColumn="account_id" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="novinDBConnectionString (Settings)" DbObjectName="dbo.viw_accounts" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy2" GeneratorSourceName="FillBy" GetMethodModifier="Public" GetMethodName="GetDataBy2" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy2" UserSourceName="FillBy">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        accountTitle, account_totalPrice, account_chapterName, moeen_id, account_id
+FROM            viw_accounts</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="novinDBConnectionString (Settings)" DbObjectName="dbo.viw_accounts" DbObjectType="View" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy" GeneratorSourceName="getSumOfAccounts" Modifier="Public" Name="getSumOfAccounts" QueryType="Scalar" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="getSumOfAccounts">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        SUM(account_totalPrice) AS Expr1, account_chapterName
+FROM            viw_accounts
+GROUP BY account_chapterName
+HAVING        (account_chapterName &lt;&gt; N'-120') OR
+                         (account_chapterName IS NULL)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="novinDBConnectionString (Settings)" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="getSumOfCach" Modifier="Public" Name="getSumOfCach" QueryType="Scalar" ScalarCallRetval="System.Int64, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="getSumOfCach">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        SUM(account_totalPrice) AS Expr1
+FROM            viw_accounts
+GROUP BY account_chapterName
+HAVING        (account_chapterName = N'-120')</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_viewAccounts" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ds_viewAccounts" msprop:Generator_DataSetName="ds_viewAccounts" msprop:EnableTableAdapterManager="True">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="viw_accounts" msprop:Generator_UserTableName="viw_accounts" msprop:Generator_RowDeletedName="viw_accountsRowDeleted" msprop:Generator_RowChangedName="viw_accountsRowChanged" msprop:Generator_RowClassName="viw_accountsRow" msprop:Generator_RowChangingName="viw_accountsRowChanging" msprop:Generator_RowEvArgName="viw_accountsRowChangeEvent" msprop:Generator_RowEvHandlerName="viw_accountsRowChangeEventHandler" msprop:Generator_TableClassName="viw_accountsDataTable" msprop:Generator_TableVarName="tableviw_accounts" msprop:Generator_RowDeletingName="viw_accountsRowDeleting" msprop:Generator_TablePropName="viw_accounts">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="accountTitle" msdata:ReadOnly="true" msprop:Generator_UserColumnName="accountTitle" msprop:Generator_ColumnVarNameInTable="columnaccountTitle" msprop:Generator_ColumnPropNameInRow="accountTitle" msprop:Generator_ColumnPropNameInTable="accountTitleColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="117" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="account_totalPrice" msprop:Generator_UserColumnName="account_totalPrice" msprop:Generator_ColumnVarNameInTable="columnaccount_totalPrice" msprop:Generator_ColumnPropNameInRow="account_totalPrice" msprop:Generator_ColumnPropNameInTable="account_totalPriceColumn" type="xs:long" />
+              <xs:element name="account_chapterName" msprop:Generator_UserColumnName="account_chapterName" msprop:Generator_ColumnPropNameInRow="account_chapterName" msprop:Generator_ColumnVarNameInTable="columnaccount_chapterName" msprop:Generator_ColumnPropNameInTable="account_chapterNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="moeen_id" msprop:Generator_UserColumnName="moeen_id" msprop:Generator_ColumnVarNameInTable="columnmoeen_id" msprop:Generator_ColumnPropNameInRow="moeen_id" msprop:Generator_ColumnPropNameInTable="moeen_idColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="account_id" msprop:Generator_UserColumnName="account_id" msprop:Generator_ColumnPropNameInRow="account_id" msprop:Generator_ColumnVarNameInTable="columnaccount_id" msprop:Generator_ColumnPropNameInTable="account_idColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

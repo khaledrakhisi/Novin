@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_jurnal" targetNamespace="http://tempuri.org/ds_jurnal.xsd" xmlns:mstns="http://tempuri.org/ds_jurnal.xsd" xmlns="http://tempuri.org/ds_jurnal.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="novinDBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="novinDBConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Novin.Properties.Settings.GlobalReference.Default.novinDBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="viw_jurnalTableAdapter" GeneratorDataComponentClassName="viw_jurnalTableAdapter" Name="viw_jurnal" UserDataComponentName="viw_jurnalTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="novinDBConnectionString (Settings)" DbObjectName="dbo.viw_jurnal" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT moeen_id, kol_id, accDocRow_comment, accDoc_comment, accDocRow_retail, accDocRow_indebted, accDocRow_creditor, accDocRow_remain, accDocRow_detect, accDoc_id, accDoc_date FROM dbo.viw_jurnal</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="moeen_id" DataSetColumn="moeen_id" />
+              <Mapping SourceColumn="kol_id" DataSetColumn="kol_id" />
+              <Mapping SourceColumn="accDocRow_comment" DataSetColumn="accDocRow_comment" />
+              <Mapping SourceColumn="accDoc_comment" DataSetColumn="accDoc_comment" />
+              <Mapping SourceColumn="accDocRow_retail" DataSetColumn="accDocRow_retail" />
+              <Mapping SourceColumn="accDocRow_indebted" DataSetColumn="accDocRow_indebted" />
+              <Mapping SourceColumn="accDocRow_creditor" DataSetColumn="accDocRow_creditor" />
+              <Mapping SourceColumn="accDocRow_remain" DataSetColumn="accDocRow_remain" />
+              <Mapping SourceColumn="accDocRow_detect" DataSetColumn="accDocRow_detect" />
+              <Mapping SourceColumn="accDoc_id" DataSetColumn="accDoc_id" />
+              <Mapping SourceColumn="accDoc_date" DataSetColumn="accDoc_date" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="viw_objectEntityTableAdapter" GeneratorDataComponentClassName="viw_objectEntityTableAdapter" Name="viw_objectEntity" UserDataComponentName="viw_objectEntityTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="novinDBConnectionString (Settings)" DbObjectName="dbo.viw_objectEntity" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT objectTitle, object_entity, object_retailBuyPrice, buyPrice, buyPriceTotall, object_id FROM viw_objectEntity</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="objectTitle" DataSetColumn="objectTitle" />
+              <Mapping SourceColumn="object_entity" DataSetColumn="object_entity" />
+              <Mapping SourceColumn="object_retailBuyPrice" DataSetColumn="object_retailBuyPrice" />
+              <Mapping SourceColumn="buyPrice" DataSetColumn="buyPrice" />
+              <Mapping SourceColumn="buyPriceTotall" DataSetColumn="buyPriceTotall" />
+              <Mapping SourceColumn="object_id" DataSetColumn="object_id" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_jurnal" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ds_jurnal" msprop:Generator_DataSetName="ds_jurnal" msprop:EnableTableAdapterManager="True">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="viw_jurnal" msprop:Generator_UserTableName="viw_jurnal" msprop:Generator_RowDeletedName="viw_jurnalRowDeleted" msprop:Generator_RowChangedName="viw_jurnalRowChanged" msprop:Generator_RowClassName="viw_jurnalRow" msprop:Generator_RowChangingName="viw_jurnalRowChanging" msprop:Generator_RowEvArgName="viw_jurnalRowChangeEvent" msprop:Generator_RowEvHandlerName="viw_jurnalRowChangeEventHandler" msprop:Generator_TableClassName="viw_jurnalDataTable" msprop:Generator_TableVarName="tableviw_jurnal" msprop:Generator_RowDeletingName="viw_jurnalRowDeleting" msprop:Generator_TablePropName="viw_jurnal">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="moeen_id" msprop:Generator_UserColumnName="moeen_id" msprop:Generator_ColumnPropNameInRow="moeen_id" msprop:Generator_ColumnVarNameInTable="columnmoeen_id" msprop:Generator_ColumnPropNameInTable="moeen_idColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="kol_id" msprop:Generator_UserColumnName="kol_id" msprop:Generator_ColumnPropNameInRow="kol_id" msprop:Generator_ColumnVarNameInTable="columnkol_id" msprop:Generator_ColumnPropNameInTable="kol_idColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="accDocRow_comment" msdata:ReadOnly="true" msprop:Generator_UserColumnName="accDocRow_comment" msprop:Generator_ColumnPropNameInRow="accDocRow_comment" msprop:Generator_ColumnVarNameInTable="columnaccDocRow_comment" msprop:Generator_ColumnPropNameInTable="accDocRow_commentColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="103" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="accDoc_comment" msprop:Generator_UserColumnName="accDoc_comment" msprop:Generator_ColumnPropNameInRow="accDoc_comment" msprop:Generator_ColumnVarNameInTable="columnaccDoc_comment" msprop:Generator_ColumnPropNameInTable="accDoc_commentColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="accDocRow_retail" msprop:Generator_UserColumnName="accDocRow_retail" msprop:Generator_ColumnPropNameInRow="accDocRow_retail" msprop:Generator_ColumnVarNameInTable="columnaccDocRow_retail" msprop:Generator_ColumnPropNameInTable="accDocRow_retailColumn" type="xs:long" />
+              <xs:element name="accDocRow_indebted" msprop:Generator_UserColumnName="accDocRow_indebted" msprop:Generator_ColumnPropNameInRow="accDocRow_indebted" msprop:Generator_ColumnVarNameInTable="columnaccDocRow_indebted" msprop:Generator_ColumnPropNameInTable="accDocRow_indebtedColumn" type="xs:long" />
+              <xs:element name="accDocRow_creditor" msprop:Generator_UserColumnName="accDocRow_creditor" msprop:Generator_ColumnPropNameInRow="accDocRow_creditor" msprop:Generator_ColumnVarNameInTable="columnaccDocRow_creditor" msprop:Generator_ColumnPropNameInTable="accDocRow_creditorColumn" type="xs:long" />
+              <xs:element name="accDocRow_remain" msprop:Generator_UserColumnName="accDocRow_remain" msprop:Generator_ColumnPropNameInRow="accDocRow_remain" msprop:Generator_ColumnVarNameInTable="columnaccDocRow_remain" msprop:Generator_ColumnPropNameInTable="accDocRow_remainColumn" type="xs:long" />
+              <xs:element name="accDocRow_detect" msprop:Generator_UserColumnName="accDocRow_detect" msprop:Generator_ColumnPropNameInRow="accDocRow_detect" msprop:Generator_ColumnVarNameInTable="columnaccDocRow_detect" msprop:Generator_ColumnPropNameInTable="accDocRow_detectColumn" type="xs:short" />
+              <xs:element name="accDoc_id" msprop:Generator_UserColumnName="accDoc_id" msprop:Generator_ColumnPropNameInRow="accDoc_id" msprop:Generator_ColumnVarNameInTable="columnaccDoc_id" msprop:Generator_ColumnPropNameInTable="accDoc_idColumn" type="xs:int" />
+              <xs:element name="accDoc_date" msprop:Generator_UserColumnName="accDoc_date" msprop:Generator_ColumnPropNameInRow="accDoc_date" msprop:Generator_ColumnVarNameInTable="columnaccDoc_date" msprop:Generator_ColumnPropNameInTable="accDoc_dateColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="viw_objectEntity" msprop:Generator_UserTableName="viw_objectEntity" msprop:Generator_RowDeletedName="viw_objectEntityRowDeleted" msprop:Generator_RowChangedName="viw_objectEntityRowChanged" msprop:Generator_RowClassName="viw_objectEntityRow" msprop:Generator_RowChangingName="viw_objectEntityRowChanging" msprop:Generator_RowEvArgName="viw_objectEntityRowChangeEvent" msprop:Generator_RowEvHandlerName="viw_objectEntityRowChangeEventHandler" msprop:Generator_TableClassName="viw_objectEntityDataTable" msprop:Generator_TableVarName="tableviw_objectEntity" msprop:Generator_RowDeletingName="viw_objectEntityRowDeleting" msprop:Generator_TablePropName="viw_objectEntity">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="objectTitle" msdata:ReadOnly="true" msprop:Generator_UserColumnName="objectTitle" msprop:Generator_ColumnVarNameInTable="columnobjectTitle" msprop:Generator_ColumnPropNameInRow="objectTitle" msprop:Generator_ColumnPropNameInTable="objectTitleColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="101" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="object_entity" msprop:Generator_UserColumnName="object_entity" msprop:Generator_ColumnVarNameInTable="columnobject_entity" msprop:Generator_ColumnPropNameInRow="object_entity" msprop:Generator_ColumnPropNameInTable="object_entityColumn" type="xs:int" />
+              <xs:element name="object_retailBuyPrice" msprop:Generator_UserColumnName="object_retailBuyPrice" msprop:Generator_ColumnVarNameInTable="columnobject_retailBuyPrice" msprop:Generator_ColumnPropNameInRow="object_retailBuyPrice" msprop:Generator_ColumnPropNameInTable="object_retailBuyPriceColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="buyPrice" msdata:ReadOnly="true" msprop:Generator_UserColumnName="buyPrice" msprop:Generator_ColumnVarNameInTable="columnbuyPrice" msprop:Generator_ColumnPropNameInRow="buyPrice" msprop:Generator_ColumnPropNameInTable="buyPriceColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="buyPriceTotall" msdata:ReadOnly="true" msprop:Generator_UserColumnName="buyPriceTotall" msprop:Generator_ColumnVarNameInTable="columnbuyPriceTotall" msprop:Generator_ColumnPropNameInRow="buyPriceTotall" msprop:Generator_ColumnPropNameInTable="buyPriceTotallColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="object_id" msprop:Generator_UserColumnName="object_id" msprop:Generator_ColumnPropNameInRow="object_id" msprop:Generator_ColumnVarNameInTable="columnobject_id" msprop:Generator_ColumnPropNameInTable="object_idColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:viw_objectEntity" />
+      <xs:field xpath="mstns:object_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

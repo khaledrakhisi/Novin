@@ -1,0 +1,368 @@
+D:\develop\csharp\Novin\Novin\bin\Debug\novinDB.mdf
+D:\develop\csharp\Novin\Novin\bin\Debug\novinDB_log.ldf
+D:\develop\csharp\Novin\Novin\bin\Debug\Novin.exe.config
+D:\develop\csharp\Novin\Novin\bin\Debug\Novin.exe
+D:\develop\csharp\Novin\Novin\bin\Debug\Novin.pdb
+D:\develop\csharp\Novin\Novin\bin\Debug\Persia.dll
+D:\develop\csharp\Novin\Novin\obj\Debug\ResolveAssemblyReference.cache
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_accounts.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_accountsPrimaryMoney.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_bank.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_cheques.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_inputBox.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_invoicesBuy.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_invoicesSell.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_invoicesWasted.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_issuseAccDoc.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_itemSelection.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_master.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_FATHER.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_msgBox.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_objectGrouping.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_objects.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_persons.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_primaryCycleEnd.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_store.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.Properties.Resources.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Jaavid.csproj.GenerateResource.Cache
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.exe
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.pdb
+I:\New folder (3)\Novin\Novin\bin\Debug\Novin.exe.config
+I:\New folder (3)\Novin\Novin\obj\Debug\Novin.exe
+I:\New folder (3)\Novin\Novin\obj\Debug\Novin.pdb
+I:\New folder (3)\Novin\Novin\bin\Debug\novinDB.mdf
+I:\New folder (3)\Novin\Novin\bin\Debug\novinDB_log.ldf
+I:\New folder (3)\Novin\Novin\bin\Debug\Novin.exe
+I:\New folder (3)\Novin\Novin\bin\Debug\Novin.pdb
+I:\New folder (3)\Novin\Novin\obj\Debug\ResolveAssemblyReference.cache
+I:\New folder (3)\Novin\Novin\obj\Debug\Novin.frm_accounts.resources
+I:\New folder (3)\Novin\Novin\obj\Debug\Novin.frm_accountsPrimaryMoney.resources
+I:\New folder (3)\Novin\Novin\obj\Debug\Novin.frm_bank.resources
+I:\New folder (3)\Novin\Novin\obj\Debug\Novin.frm_cheques.resources
+I:\New folder (3)\Novin\Novin\obj\Debug\Novin.frm_FATHER.resources
+I:\New folder (3)\Novin\Novin\obj\Debug\Novin.frm_inputBox.resources
+I:\New folder (3)\Novin\Novin\obj\Debug\Novin.frm_invoicesBuy.resources
+I:\New folder (3)\Novin\Novin\obj\Debug\Novin.frm_invoicesSell.resources
+I:\New folder (3)\Novin\Novin\obj\Debug\Novin.frm_invoicesWasted.resources
+I:\New folder (3)\Novin\Novin\obj\Debug\Novin.frm_issuseAccDoc.resources
+I:\New folder (3)\Novin\Novin\obj\Debug\Novin.frm_itemSelection.resources
+I:\New folder (3)\Novin\Novin\obj\Debug\Novin.frm_master.resources
+I:\New folder (3)\Novin\Novin\obj\Debug\Novin.frm_msgBox.resources
+I:\New folder (3)\Novin\Novin\obj\Debug\Novin.frm_objectGrouping.resources
+I:\New folder (3)\Novin\Novin\obj\Debug\Novin.frm_objects.resources
+I:\New folder (3)\Novin\Novin\obj\Debug\Novin.frm_persons.resources
+I:\New folder (3)\Novin\Novin\obj\Debug\Novin.frm_primaryCycleEnd.resources
+I:\New folder (3)\Novin\Novin\obj\Debug\Novin.frm_store.resources
+I:\New folder (3)\Novin\Novin\obj\Debug\Novin.Properties.Resources.resources
+I:\New folder (3)\Novin\Novin\obj\Debug\Jaavid.csproj.GenerateResource.Cache
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_modify.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_invoiceExplorer.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_print.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_findRecords.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_reportPreview.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_books.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_experBalance.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_objectEntityReport.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_accDocExplorer.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_finActions.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_chequesExplorer.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_personExplorer.resources
+D:\develop\csharp\Novin\Novin\bin\Debug\jaavidTextbox.dll
+D:\develop\csharp\Novin\Novin\bin\Debug\jaavidTextbox.pdb
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_visitors.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_preferences.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_logOn.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_setPassword.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_pensionForm.resources
+M:\Novin\Novin\bin\Debug\Novin.exe.config
+M:\Novin\Novin\obj\Debug\Novin.exe
+M:\Novin\Novin\obj\Debug\Novin.pdb
+M:\Novin\Novin\bin\Debug\novinDB.mdf
+M:\Novin\Novin\bin\Debug\novinDB_log.ldf
+M:\Novin\Novin\bin\Debug\Novin.exe
+M:\Novin\Novin\bin\Debug\Novin.pdb
+M:\Novin\Novin\bin\Debug\jaavidTextbox.dll
+M:\Novin\Novin\bin\Debug\jaavidTextbox.pdb
+M:\Novin\Novin\obj\Debug\ResolveAssemblyReference.cache
+M:\Novin\Novin\obj\Debug\Novin.frm_accDocExplorer.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_chequesExplorer.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_finActions.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_logOn.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_objectEntityReport.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_pensionForm.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_personExplorer.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_preferences.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_setPassword.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_visitors.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_accounts.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_accountsPrimaryMoney.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_bank.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_books.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_cheques.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_experBalance.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_FATHER.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_findRecords.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_inputBox.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_invoiceExplorer.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_invoicesBuy.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_invoicesSell.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_invoicesWasted.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_issuseAccDoc.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_itemSelection.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_master.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_modify.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_msgBox.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_objectGrouping.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_objects.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_persons.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_primaryCycleEnd.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_print.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_reportPreview.resources
+M:\Novin\Novin\obj\Debug\Novin.frm_store.resources
+M:\Novin\Novin\obj\Debug\Novin.Properties.Resources.resources
+M:\Novin\Novin\obj\Debug\Jaavid.csproj.GenerateResource.Cache
+C:\Users\jaavid\Desktop\Novin\Novin\bin\Debug\Novin.exe.config
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.exe
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.pdb
+C:\Users\jaavid\Desktop\Novin\Novin\bin\Debug\novinDB.mdf
+C:\Users\jaavid\Desktop\Novin\Novin\bin\Debug\novinDB_log.ldf
+C:\Users\jaavid\Desktop\Novin\Novin\bin\Debug\Novin.exe
+C:\Users\jaavid\Desktop\Novin\Novin\bin\Debug\Novin.pdb
+C:\Users\jaavid\Desktop\Novin\Novin\bin\Debug\jaavidTextbox.dll
+C:\Users\jaavid\Desktop\Novin\Novin\bin\Debug\jaavidTextbox.pdb
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_accDocExplorer.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_chequesExplorer.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_finActions.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_logOn.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_objectEntityReport.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_pensionForm.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_personExplorer.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_preferences.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_setPassword.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_visitors.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_accounts.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_accountsPrimaryMoney.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_bank.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_books.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_cheques.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_experBalance.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_FATHER.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_findRecords.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_inputBox.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_invoiceExplorer.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_invoicesBuy.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_invoicesSell.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_invoicesWasted.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_issuseAccDoc.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_itemSelection.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_master.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_modify.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_msgBox.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_objectGrouping.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_objects.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_persons.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_primaryCycleEnd.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_print.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_reportPreview.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.frm_store.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Novin.Properties.Resources.resources
+C:\Users\jaavid\Desktop\Novin\Novin\obj\Debug\Jaavid.csproj.GenerateResource.Cache
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_backupAndRestore.resources
+F:\Novin\Novin\bin\Debug\Novin.exe.config
+F:\Novin\Novin\obj\Debug\Novin.exe
+F:\Novin\Novin\obj\Debug\Novin.pdb
+F:\Novin\Novin\bin\Debug\novinDB.mdf
+F:\Novin\Novin\bin\Debug\novinDB_log.ldf
+F:\Novin\Novin\bin\Debug\Novin.exe
+F:\Novin\Novin\bin\Debug\Novin.pdb
+F:\Novin\Novin\bin\Debug\jaavidTextbox.dll
+F:\Novin\Novin\bin\Debug\jaavidTextbox.pdb
+F:\Novin\Novin\obj\Debug\ResolveAssemblyReference.cache
+F:\Novin\Novin\obj\Debug\Novin.frm_backupAndRestore.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_accDocExplorer.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_chequesExplorer.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_finActions.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_logOn.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_objectEntityReport.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_pensionForm.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_personExplorer.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_preferences.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_setPassword.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_visitors.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_accounts.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_accountsPrimaryMoney.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_bank.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_books.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_cheques.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_experBalance.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_FATHER.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_findRecords.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_inputBox.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_invoiceExplorer.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_invoicesBuy.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_invoicesSell.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_invoicesWasted.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_issuseAccDoc.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_itemSelection.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_master.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_modify.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_msgBox.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_objectGrouping.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_objects.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_persons.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_primaryCycleEnd.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_print.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_reportPreview.resources
+F:\Novin\Novin\obj\Debug\Novin.frm_store.resources
+F:\Novin\Novin\obj\Debug\Novin.Properties.Resources.resources
+F:\Novin\Novin\obj\Debug\Jaavid.csproj.GenerateResource.Cache
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_objectsUnits.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_soldObjectExplorer.resources
+D:\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_accountingChapters.resources
+D:\develop\csharp\Novin - Copy\Novin\bin\Debug\Novin.exe.config
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.exe
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.pdb
+D:\develop\csharp\Novin - Copy\Novin\bin\Debug\novinDB.mdf
+D:\develop\csharp\Novin - Copy\Novin\bin\Debug\novinDB_log.ldf
+D:\develop\csharp\Novin - Copy\Novin\bin\Debug\Novin.exe
+D:\develop\csharp\Novin - Copy\Novin\bin\Debug\Novin.pdb
+D:\develop\csharp\Novin - Copy\Novin\bin\Debug\jaavidTextbox.dll
+D:\develop\csharp\Novin - Copy\Novin\bin\Debug\Persia.dll
+D:\develop\csharp\Novin - Copy\Novin\bin\Debug\jaavidTextbox.pdb
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\ResolveAssemblyReference.cache
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_accountingChapters.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_backupAndRestore.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_objectsUnits.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_soldObjectExplorer.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_accDocExplorer.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_chequesExplorer.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_finActions.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_logOn.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_objectEntityReport.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_pensionForm.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_personExplorer.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_preferences.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_setPassword.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_visitors.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_accounts.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_accountsPrimaryMoney.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_bank.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_books.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_cheques.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_experBalance.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_FATHER.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_findRecords.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_inputBox.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_invoiceExplorer.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_invoicesBuy.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_invoicesSell.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_invoicesWasted.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_issuseAccDoc.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_itemSelection.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_master.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_modify.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_msgBox.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_objectGrouping.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_objects.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_persons.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_primaryCycleEnd.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_print.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_reportPreview.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.frm_store.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Novin.Properties.Resources.resources
+D:\develop\csharp\Novin - Copy\Novin\obj\Debug\Jaavid.csproj.GenerateResource.Cache
+G:\Novin\Novin\bin\Debug\Novin.exe.config
+G:\Novin\Novin\obj\Debug\Novin.exe
+G:\Novin\Novin\obj\Debug\Novin.pdb
+G:\Novin\Novin\obj\Debug\ResolveAssemblyReference.cache
+G:\Novin\Novin\obj\Debug\Novin.frm_accountingChapters.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_backupAndRestore.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_objectsUnits.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_soldObjectExplorer.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_accDocExplorer.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_chequesExplorer.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_finActions.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_logOn.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_objectEntityReport.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_pensionForm.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_personExplorer.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_preferences.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_setPassword.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_visitors.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_accounts.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_accountsPrimaryMoney.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_bank.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_books.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_cheques.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_experBalance.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_FATHER.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_findRecords.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_inputBox.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_invoiceExplorer.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_invoicesBuy.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_invoicesSell.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_invoicesWasted.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_issuseAccDoc.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_itemSelection.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_master.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_modify.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_msgBox.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_objectGrouping.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_objects.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_persons.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_primaryCycleEnd.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_print.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_reportPreview.resources
+G:\Novin\Novin\obj\Debug\Novin.frm_store.resources
+G:\Novin\Novin\obj\Debug\Novin.Properties.Resources.resources
+G:\Novin\Novin\obj\Debug\GenerateResource-ResGen.read.1.tlog
+G:\Novin\Novin\obj\Debug\GenerateResource-ResGen.write.1.tlog
+G:\Novin\Novin\obj\Debug\GenerateResource.read.1.tlog
+D:\Develop\develop\csharp\Novin\Novin\bin\Debug\Novin.exe.config
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.exe
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.pdb
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Jaavid.csprojResolveAssemblyReference.cache
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_accountingChapters.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_backupAndRestore.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_objectsUnits.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_soldObjectExplorer.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_accDocExplorer.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_chequesExplorer.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_finActions.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_logOn.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_objectEntityReport.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_pensionForm.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_personExplorer.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_preferences.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_setPassword.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_visitors.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_accounts.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_accountsPrimaryMoney.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_bank.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_books.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_cheques.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_experBalance.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_FATHER.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_findRecords.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_inputBox.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_invoiceExplorer.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_invoicesBuy.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_invoicesSell.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_invoicesWasted.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_issuseAccDoc.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_itemSelection.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_master.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_modify.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_msgBox.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_objectGrouping.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_objects.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_persons.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_primaryCycleEnd.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_print.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_reportPreview.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.frm_store.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Novin.Properties.Resources.resources
+D:\Develop\develop\csharp\Novin\Novin\obj\Debug\Jaavid.csproj.GenerateResource.Cache
+D:\Develop\Csharp\Novin\Novin\obj\Debug\Jaavid.csprojAssemblyReference.cache
+D:\Develop\Csharp\Novin\Novin\obj\Debug\Jaavid.csproj.CoreCompileInputs.cache

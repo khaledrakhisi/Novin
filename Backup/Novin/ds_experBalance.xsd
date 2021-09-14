@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_experBalance" targetNamespace="http://tempuri.org/ds_experBalance.xsd" xmlns:mstns="http://tempuri.org/ds_experBalance.xsd" xmlns="http://tempuri.org/ds_experBalance.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="novinDBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="novinDBConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Novin.Properties.Settings.GlobalReference.Default.novinDBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="viw_experBalanceTableAdapter" GeneratorDataComponentClassName="viw_experBalanceTableAdapter" Name="viw_experBalance" UserDataComponentName="viw_experBalanceTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="novinDBConnectionString (Settings)" DbObjectName="dbo.viw_experBalance" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT kol_id, kol_title, indTotal, creTotal, indRemain, creRemain, moeen_title, moeen_id FROM dbo.viw_experBalance</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="kol_id" DataSetColumn="kol_id" />
+              <Mapping SourceColumn="kol_title" DataSetColumn="kol_title" />
+              <Mapping SourceColumn="indTotal" DataSetColumn="indTotal" />
+              <Mapping SourceColumn="creTotal" DataSetColumn="creTotal" />
+              <Mapping SourceColumn="indRemain" DataSetColumn="indRemain" />
+              <Mapping SourceColumn="creRemain" DataSetColumn="creRemain" />
+              <Mapping SourceColumn="moeen_title" DataSetColumn="moeen_title" />
+              <Mapping SourceColumn="moeen_id" DataSetColumn="moeen_id" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_experBalance" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="ds_experBalance" msprop:Generator_UserDSName="ds_experBalance" msprop:EnableTableAdapterManager="True">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="viw_experBalance" msprop:Generator_UserTableName="viw_experBalance" msprop:Generator_RowDeletedName="viw_experBalanceRowDeleted" msprop:Generator_TableClassName="viw_experBalanceDataTable" msprop:Generator_RowChangedName="viw_experBalanceRowChanged" msprop:Generator_RowClassName="viw_experBalanceRow" msprop:Generator_RowChangingName="viw_experBalanceRowChanging" msprop:Generator_RowEvArgName="viw_experBalanceRowChangeEvent" msprop:Generator_RowEvHandlerName="viw_experBalanceRowChangeEventHandler" msprop:Generator_TablePropName="viw_experBalance" msprop:Generator_TableVarName="tableviw_experBalance" msprop:Generator_RowDeletingName="viw_experBalanceRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="kol_id" msprop:Generator_UserColumnName="kol_id" msprop:Generator_ColumnPropNameInRow="kol_id" msprop:Generator_ColumnVarNameInTable="columnkol_id" msprop:Generator_ColumnPropNameInTable="kol_idColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="kol_title" msprop:Generator_UserColumnName="kol_title" msprop:Generator_ColumnPropNameInRow="kol_title" msprop:Generator_ColumnVarNameInTable="columnkol_title" msprop:Generator_ColumnPropNameInTable="kol_titleColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="indTotal" msprop:Generator_UserColumnName="indTotal" msprop:Generator_ColumnPropNameInRow="indTotal" msprop:Generator_ColumnVarNameInTable="columnindTotal" msprop:Generator_ColumnPropNameInTable="indTotalColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="creTotal" msprop:Generator_UserColumnName="creTotal" msprop:Generator_ColumnPropNameInRow="creTotal" msprop:Generator_ColumnVarNameInTable="columncreTotal" msprop:Generator_ColumnPropNameInTable="creTotalColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="indRemain" msdata:ReadOnly="true" msprop:Generator_UserColumnName="indRemain" msprop:Generator_ColumnPropNameInRow="indRemain" msprop:Generator_ColumnVarNameInTable="columnindRemain" msprop:Generator_ColumnPropNameInTable="indRemainColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="creRemain" msdata:ReadOnly="true" msprop:Generator_UserColumnName="creRemain" msprop:Generator_ColumnPropNameInRow="creRemain" msprop:Generator_ColumnVarNameInTable="columncreRemain" msprop:Generator_ColumnPropNameInTable="creRemainColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="moeen_title" msprop:Generator_UserColumnName="moeen_title" msprop:Generator_ColumnPropNameInRow="moeen_title" msprop:Generator_ColumnVarNameInTable="columnmoeen_title" msprop:Generator_ColumnPropNameInTable="moeen_titleColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="moeen_id" msprop:Generator_UserColumnName="moeen_id" msprop:Generator_ColumnPropNameInRow="moeen_id" msprop:Generator_ColumnVarNameInTable="columnmoeen_id" msprop:Generator_ColumnPropNameInTable="moeen_idColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:viw_experBalance" />
+      <xs:field xpath="mstns:moeen_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

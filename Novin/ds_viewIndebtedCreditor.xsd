@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_viewIndebtedCreditor" targetNamespace="http://tempuri.org/ds_viewIndebtedCreditor.xsd" xmlns:mstns="http://tempuri.org/ds_viewIndebtedCreditor.xsd" xmlns="http://tempuri.org/ds_viewIndebtedCreditor.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="novinDBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="novinDBConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Novin.Properties.Settings.GlobalReference.Default.novinDBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="viw_indebtedCreditorTableAdapter" GeneratorDataComponentClassName="viw_indebtedCreditorTableAdapter" Name="viw_indebtedCreditor" UserDataComponentName="viw_indebtedCreditorTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="novinDBConnectionString (Settings)" DbObjectName="dbo.viw_indebtedCreditor" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT person_familyAndName, person_phone, person_beforeType, detect, person_remainMoney, person_id, moeen_id FROM viw_indebtedCreditor</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="person_familyAndName" DataSetColumn="person_familyAndName" />
+              <Mapping SourceColumn="person_phone" DataSetColumn="person_phone" />
+              <Mapping SourceColumn="person_beforeType" DataSetColumn="person_beforeType" />
+              <Mapping SourceColumn="detect" DataSetColumn="detect" />
+              <Mapping SourceColumn="person_remainMoney" DataSetColumn="person_remainMoney" />
+              <Mapping SourceColumn="person_id" DataSetColumn="person_id" />
+              <Mapping SourceColumn="moeen_id" DataSetColumn="moeen_id" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="novinDBConnectionString (Settings)" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="getSumOfCreditos" Modifier="Public" Name="getSumOfCreditos" QueryType="Scalar" ScalarCallRetval="System.Int64, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="getSumOfCreditos">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        SUM(person_remainMoney) AS Expr1
+FROM            viw_indebtedCreditor
+GROUP BY person_beforeType
+HAVING        (person_beforeType = 2)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="novinDBConnectionString (Settings)" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="getSumOfIndebteds" Modifier="Public" Name="getSumOfIndebteds" QueryType="Scalar" ScalarCallRetval="System.Int64, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="getSumOfIndebteds">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        SUM(person_remainMoney) AS Expr1
+FROM            viw_indebtedCreditor
+GROUP BY person_beforeType
+HAVING        (person_beforeType = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_viewIndebtedCreditor" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ds_viewIndebtedCreditor" msprop:Generator_DataSetName="ds_viewIndebtedCreditor" msprop:EnableTableAdapterManager="True">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="viw_indebtedCreditor" msprop:Generator_UserTableName="viw_indebtedCreditor" msprop:Generator_RowDeletedName="viw_indebtedCreditorRowDeleted" msprop:Generator_RowChangedName="viw_indebtedCreditorRowChanged" msprop:Generator_RowClassName="viw_indebtedCreditorRow" msprop:Generator_RowChangingName="viw_indebtedCreditorRowChanging" msprop:Generator_RowEvArgName="viw_indebtedCreditorRowChangeEvent" msprop:Generator_RowEvHandlerName="viw_indebtedCreditorRowChangeEventHandler" msprop:Generator_TableClassName="viw_indebtedCreditorDataTable" msprop:Generator_TableVarName="tableviw_indebtedCreditor" msprop:Generator_RowDeletingName="viw_indebtedCreditorRowDeleting" msprop:Generator_TablePropName="viw_indebtedCreditor">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="person_familyAndName" msprop:Generator_UserColumnName="person_familyAndName" msprop:Generator_ColumnVarNameInTable="columnperson_familyAndName" msprop:Generator_ColumnPropNameInRow="person_familyAndName" msprop:Generator_ColumnPropNameInTable="person_familyAndNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="person_phone" msprop:Generator_UserColumnName="person_phone" msprop:Generator_ColumnVarNameInTable="columnperson_phone" msprop:Generator_ColumnPropNameInRow="person_phone" msprop:Generator_ColumnPropNameInTable="person_phoneColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="66" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="person_beforeType" msprop:Generator_UserColumnName="person_beforeType" msprop:Generator_ColumnVarNameInTable="columnperson_beforeType" msprop:Generator_ColumnPropNameInRow="person_beforeType" msprop:Generator_ColumnPropNameInTable="person_beforeTypeColumn" type="xs:short" />
+              <xs:element name="detect" msdata:ReadOnly="true" msprop:Generator_UserColumnName="detect" msprop:Generator_ColumnVarNameInTable="columndetect" msprop:Generator_ColumnPropNameInRow="detect" msprop:Generator_ColumnPropNameInTable="detectColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="person_remainMoney" msprop:Generator_UserColumnName="person_remainMoney" msprop:Generator_ColumnVarNameInTable="columnperson_remainMoney" msprop:Generator_ColumnPropNameInRow="person_remainMoney" msprop:Generator_ColumnPropNameInTable="person_remainMoneyColumn" type="xs:long" />
+              <xs:element name="person_id" msprop:Generator_UserColumnName="person_id" msprop:Generator_ColumnVarNameInTable="columnperson_id" msprop:Generator_ColumnPropNameInRow="person_id" msprop:Generator_ColumnPropNameInTable="person_idColumn" type="xs:int" />
+              <xs:element name="moeen_id" msprop:Generator_UserColumnName="moeen_id" msprop:Generator_ColumnPropNameInRow="moeen_id" msprop:Generator_ColumnVarNameInTable="columnmoeen_id" msprop:Generator_ColumnPropNameInTable="moeen_idColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:viw_indebtedCreditor" />
+      <xs:field xpath="mstns:person_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

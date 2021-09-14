@@ -1,0 +1,38 @@
+D:\develop\csharp\Novin\jaavidTextbox\bin\Debug\jaavidTextbox.dll
+D:\develop\csharp\Novin\jaavidTextbox\bin\Debug\jaavidTextbox.pdb
+D:\develop\csharp\Novin\jaavidTextbox\obj\Debug\jaavidTextbox.csproj.GenerateResource.Cache
+D:\develop\csharp\Novin\jaavidTextbox\obj\Debug\jaavidTextbox.dll
+D:\develop\csharp\Novin\jaavidTextbox\obj\Debug\jaavidTextbox.pdb
+D:\develop\csharp\Novin\jaavidTextbox\obj\Debug\jaavidTextbox.numricTextBox.resources
+F:\Novin\jaavidTextbox\bin\Debug\jaavidTextbox.dll
+F:\Novin\jaavidTextbox\bin\Debug\jaavidTextbox.pdb
+F:\Novin\jaavidTextbox\obj\Debug\ResolveAssemblyReference.cache
+F:\Novin\jaavidTextbox\obj\Debug\jaavidTextbox.numricTextBox.resources
+F:\Novin\jaavidTextbox\obj\Debug\jaavidTextbox.csproj.GenerateResource.Cache
+F:\Novin\jaavidTextbox\obj\Debug\jaavidTextbox.dll
+F:\Novin\jaavidTextbox\obj\Debug\jaavidTextbox.pdb
+D:\develop\csharp\Novin - Copy\jaavidTextbox\bin\Debug\jaavidTextbox.dll
+D:\develop\csharp\Novin - Copy\jaavidTextbox\bin\Debug\jaavidTextbox.pdb
+D:\develop\csharp\Novin - Copy\jaavidTextbox\obj\Debug\ResolveAssemblyReference.cache
+D:\develop\csharp\Novin - Copy\jaavidTextbox\obj\Debug\jaavidTextbox.numricTextBox.resources
+D:\develop\csharp\Novin - Copy\jaavidTextbox\obj\Debug\jaavidTextbox.csproj.GenerateResource.Cache
+D:\develop\csharp\Novin - Copy\jaavidTextbox\obj\Debug\jaavidTextbox.dll
+D:\develop\csharp\Novin - Copy\jaavidTextbox\obj\Debug\jaavidTextbox.pdb
+G:\Novin\jaavidTextbox\bin\Debug\jaavidTextbox.dll
+G:\Novin\jaavidTextbox\bin\Debug\jaavidTextbox.pdb
+G:\Novin\jaavidTextbox\obj\Debug\ResolveAssemblyReference.cache
+G:\Novin\jaavidTextbox\obj\Debug\jaavidTextbox.numricTextBox.resources
+G:\Novin\jaavidTextbox\obj\Debug\GenerateResource-ResGen.read.1.tlog
+G:\Novin\jaavidTextbox\obj\Debug\GenerateResource.read.1.tlog
+G:\Novin\jaavidTextbox\obj\Debug\GenerateResource-ResGen.write.1.tlog
+G:\Novin\jaavidTextbox\obj\Debug\jaavidTextbox.dll
+G:\Novin\jaavidTextbox\obj\Debug\jaavidTextbox.pdb
+D:\Develop\develop\csharp\Novin\jaavidTextbox\bin\Debug\jaavidTextbox.dll
+D:\Develop\develop\csharp\Novin\jaavidTextbox\bin\Debug\jaavidTextbox.pdb
+D:\Develop\develop\csharp\Novin\jaavidTextbox\obj\Debug\jaavidTextbox.csprojResolveAssemblyReference.cache
+D:\Develop\develop\csharp\Novin\jaavidTextbox\obj\Debug\jaavidTextbox.numricTextBox.resources
+D:\Develop\develop\csharp\Novin\jaavidTextbox\obj\Debug\jaavidTextbox.csproj.GenerateResource.Cache
+D:\Develop\develop\csharp\Novin\jaavidTextbox\obj\Debug\jaavidTextbox.dll
+D:\Develop\develop\csharp\Novin\jaavidTextbox\obj\Debug\jaavidTextbox.pdb
+D:\Develop\Csharp\Novin\jaavidTextbox\obj\Debug\jaavidTextbox.csprojAssemblyReference.cache
+D:\Develop\Csharp\Novin\jaavidTextbox\obj\Debug\jaavidTextbox.csproj.CoreCompileInputs.cache
